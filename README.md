@@ -2,8 +2,8 @@
 Setup for big data development environment
 `fish`
 ```
-  set JAVA_HOME /usr/lib/jvm/java-8-ojdk/
-  set JRE_HOME /usr/lib/jvm/java-8-jdk/jre
+  set JAVA_HOME <your java dir>
+  set JRE_HOME <your jre dir>
 
   set BIG_DATA_HOME <this repo>
   set HADOOP_HOME $BIG_DATA_HOME/hadoop
