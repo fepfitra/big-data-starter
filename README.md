@@ -6,7 +6,7 @@ Setup for big data development environment
   set JRE_HOME <your jre dir>
 
   set BIG_DATA_HOME <this repo>
-  set HADOOP_HOME $BIG_DATA_HOME/hadoop
+  set HADOOP_HOME $BIG_DATA_HOME/hadoop-3.2.1
   set HADOOP_INSTALL $HADOOP_HOME
   set HADOOP_MAPRED_HOME $HADOOP_HOME
   set HADOOP_COMMON_HOME $HADOOP_HOME
@@ -17,7 +17,7 @@ Setup for big data development environment
   set PATH $PATH $HADOOP_HOME/sbin $HADOOP_HOME/bin
   set PATH $PATH $JAVA_HOME/bin
 
-  set FLUME_HOME $BIG_DATA_HOME/flume
-  set FLUME_CONF $BIG_DATA_HOME/flume/conf/
+  set FLUME_HOME $BIG_DATA_HOME/apache-flume-1.6.0-bin
+  set FLUME_CONF $FLUME_HOME/conf
   set PATH $PATH $FLUME_HOME/bin
 ```
