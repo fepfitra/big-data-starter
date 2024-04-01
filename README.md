@@ -2,10 +2,11 @@
 Setup for big data development environment
 `fish`
 ```
-  set JAVA_HOME /usr/lib/jvm/java-8-openjdk/
-  set JRE_HOME /usr/lib/jvm/java-8-openjdk/jre
+  set JAVA_HOME /usr/lib/jvm/java-8-ojdk/
+  set JRE_HOME /usr/lib/jvm/java-8-jdk/jre
 
-  set HADOOP_HOME /usr/local/hadoop
+  set BIG_DATA_HOME <this repo>
+  set HADOOP_HOME $BIG_DATA_HOME/hadoop
   set HADOOP_INSTALL $HADOOP_HOME
   set HADOOP_MAPRED_HOME $HADOOP_HOME
   set HADOOP_COMMON_HOME $HADOOP_HOME
@@ -16,7 +17,7 @@ Setup for big data development environment
   set PATH $PATH $HADOOP_HOME/sbin $HADOOP_HOME/bin
   set PATH $PATH $JAVA_HOME/bin
 
-  set FLUME_HOME /usr/local/flume
-  set FLUME_CONF /usr/local/flume/conf/
+  set FLUME_HOME $BIG_DATA_HOME/flume
+  set FLUME_CONF $BIG_DATA_HOME/flume/conf/
   set PATH $PATH $FLUME_HOME/bin
 ```
